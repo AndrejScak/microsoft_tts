@@ -53,7 +53,7 @@ SUPPORTED_LANGUAGES = [
     "pt-pt",
     "ro-ro",
     "ru-ru",
-    "si-sl",
+    "sl-si",
     "sk-sk",
     "sv-se",
     "th-th",
