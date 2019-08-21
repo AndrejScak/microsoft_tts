@@ -139,7 +139,7 @@ class MicrosoftProvider(Provider):
         from pycsspeechtts import pycsspeechtts
 
         try:
-            trans = pycsspeechtts.TTSTranslator(self._apikey)
+            trans = pycsspeechtts.TTSTranslator(self._apikey, "westeurope")
             data = trans.speak(
                 language=language,
                 gender=self._gender,
