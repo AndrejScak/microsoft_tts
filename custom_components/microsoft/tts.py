@@ -223,7 +223,7 @@ class MicrosoftProvider(Provider):
         self._volume = f"{volume}%"
         self._pitch = pitch
         self._contour = contour
-        self._region = region
+        self._region = "westeurope"
         self.name = "Microsoft"
 
     @property
